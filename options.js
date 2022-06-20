@@ -72,7 +72,6 @@ form.onsubmit = function () {
     whitelist: whitelistEl.selectedIndex == 1,
   });
   saveSuccessfulEl.className = "show";
-  debugger;
   return false;
 };
 

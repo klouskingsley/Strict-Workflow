@@ -198,7 +198,7 @@ function shouldBlock() {
   if (start < end) {
     return time >= start && time <= end;
   } else {
-    return time >= end || time <= start;
+    return time >= start || time <= end;
   }
 }
 
